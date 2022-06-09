@@ -1,0 +1,44 @@
+[
+    {
+        "_id": 1,
+        "name": "HTML & CSS",
+        "body": "you don't know what i do you give  project for html and css then you know what i do!",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxFLFZsQTRwE8dg2rseSyTnmv5Os6DwnVtPg&usqp=CAU"
+    },
+    {
+        "_id": 2,
+        "name": "JavaScript",
+        "body": "you don't know what i do you give  project for html and css then you know what i do!",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaEwAFHnAAqVv-RHizn2co5phDbpRprLyccQ&usqp=CAU"
+    },
+    {
+        "_id": 3,
+        "name": "React",
+        "body": "you don't know what i do you give  project for html and css then you know what i do!",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwhTbLcXQgSjVKLYZx7Dci2ZvS-2oyeT3ZOA&usqp=CAU"
+    },
+    {
+        "_id": 4,
+        "name": "Firebase Authentication",
+        "body": "you don't know what i do you give  project for html and css then you know what i do!",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJj8wd2V1l9537BaXc9vJy4sFUaXr34HZTxA&usqp=CAU"
+    },
+    {
+        "_id": 5,
+        "name": "Node js",
+        "body": "you don't know what i do you give  project for html and css then you know what i do!",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREEiEo9lFrsug3rHRFjDbtgfIGt9fmXb1ziA&usqp=CAU"
+    },
+    {
+        "_id": 6,
+        "name": "Bootstrap",
+        "body": "you don't know what i do you give  project for html and css then you know what i do!",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyS9VY5uFYyc1xVD9-kmMnjR9DpsbuVpr3Xw&usqp=CAU"
+    },
+    {
+        "_id": 7,
+        "name": "Tailwind css",
+        "body": "you don't know what i do you give  project for html and css then you know what i do!",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ0b8v--1wbUgqINPmE3zVju1MQeWGNKuiQA&usqp=CAU"
+    }
+]
