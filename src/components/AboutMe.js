@@ -1,10 +1,11 @@
 import React from 'react';
+import myself from '../1654663724553.jpg'
 
 const AboutMe = () => {
     return (
         <div class="hero mt-8">
             <div class="hero-content flex-col lg:flex-row">
-                <img src="https://img.freepik.com/free-photo/portrait-bearded-urban-male-isolated-with-contrast-illumination-grey-vignette-background_613910-1277.jpg?size=626&ext=jpg&uid=R69069354&ga=GA1.2.640787916.1653239042" class="max-w-sm rounded-lg shadow-2xl" alt=''/>
+                <img src={myself} class="max-w-sm rounded-lg shadow-2xl" alt=''/>
                 <div className='px-5'>
                     <h1 class="text-5xl font-bold">Hello! <br />
                      My Name is Shohag</h1>
