@@ -4,7 +4,7 @@ import myself from '../1654663724553.jpg'
 const Footer = () => {
     
     return (
-        <footer class="footer mt-8 p-10 bg-neutral text-neutral-content">
+        <footer class="footer mt-5 p-10 bg-neutral text-neutral-content">
             <div>
                 <div class="avatar">
                     <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">

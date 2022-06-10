@@ -1,0 +1,10 @@
+.contact-me input{
+    height: 35px;
+    width: 300px;
+    color: black;
+}
+.contact-me textarea{
+    height: 55px;
+    width: 300px;
+    color: black;
+}
