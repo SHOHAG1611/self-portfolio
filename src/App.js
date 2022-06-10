@@ -1,25 +1,22 @@
 import './App.css';
-import Banner from './components/Banner';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
-import AboutMe from './components/AboutMe';
-import Skills from './components/Skills';
-// import SkillPersent from './components/SkillPersent';
-import Reviews from './components/Reviews';
-import ContactMe from './components/ContactMe';
-import MyProjects from './components/MyProjects';
+import { Route, Routes } from 'react-router-dom';
+import Blogs from './components/Blogs';
+import Home from './components/Home';
+import About from './components/About';
+import Details from './components/Details';
 
 function App() {
   return (
     <div className='bg-neutral-focus text-center mx-auto text-white'>
       <Navbar></Navbar>
-      <Banner></Banner>
-      <AboutMe></AboutMe>
-      <MyProjects></MyProjects>
-      <Skills></Skills>
-      {/* <SkillPersent></SkillPersent> */}
-      <Reviews></Reviews>
-      <ContactMe></ContactMe>
+      <Routes>
+        <Route path='/blog' element={<Blogs></Blogs>}>Blog</Route>
+        <Route path='/home' element={<Home></Home>}></Route>
+        <Route path='/about' element={<About></About>}></Route>
+        <Route path='/details' element={<Details></Details>}></Route>
+      </Routes>
       <Footer></Footer>
     </div>
   );

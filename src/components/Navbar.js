@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css'
 
 const Navbar = () => {
@@ -6,7 +7,7 @@ const Navbar = () => {
         <section class="">
             <nav class="navbar navbar-expand-lg navbar-style">
                 <div class="container">
-                    <a href='/' class="navbar-brand">Md Shohag</a>
+                    <Link to='/home'>Home</Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -14,10 +15,8 @@ const Navbar = () => {
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav ms-auto">
-                            <a href='/' class="nav-link active" aria-current="page">Home</a>
-                            <a href='/' class="nav-link">About</a>
-                            <a href='/' class="nav-link">Login</a>
-
+                          <Link to='/about'>About</Link>
+                          <Link to='/blog'>Blog</Link>
                         </div>
                     </div>
                 </div>
